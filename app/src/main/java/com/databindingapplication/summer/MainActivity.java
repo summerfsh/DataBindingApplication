@@ -1,9 +1,9 @@
 package com.databindingapplication.summer;
 
+import android.app.Activity;
 import android.databinding.DataBindingUtil;
-import android.databinding.ViewDataBinding;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.databindingapplication.summer.databinding.ActivityMainBinding;
 

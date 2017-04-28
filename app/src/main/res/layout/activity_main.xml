@@ -2,13 +2,16 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
+
         <variable
             name="user"
             type="com.databindingapplication.summer.User" />
-        <import type="com.databindingapplication.summer.Book"/>
+
         <variable
             name="book"
-            type="Book" />
+            type="com.databindingapplication.summer.Book" />
+
+
     </data>
 
     <LinearLayout
@@ -25,5 +28,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{book.name}" />
+
     </LinearLayout>
 </layout>
