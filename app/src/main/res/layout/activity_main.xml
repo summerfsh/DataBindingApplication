@@ -5,9 +5,10 @@
         <variable
             name="user"
             type="com.databindingapplication.summer.User" />
+        <import type="com.databindingapplication.summer.Book"/>
         <variable
             name="book"
-            type="com.databindingapplication.summer.Book" />
+            type="Book" />
     </data>
 
     <LinearLayout
